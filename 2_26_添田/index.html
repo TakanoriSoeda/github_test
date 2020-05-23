@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MemoPad</title>
+</head>
+<!-- ここからメモパッドのコードを書きます -->
+<body>
+    <header> 
+        <!-- タイトルです -->
+        <h1>Memo Pad</h1> 
+    </header>
+
+    <main>
+        <div id="memo">
+            <!-- メモ帳のサンプルコードです -->
+            <div class="sample">
+                <h1>使い方</h1>
+                <ul>
+                    <li>日付を選んでメモを記入→「保存」
+                    </li>
+                    <li>最大６行書けるよ</li>
+                    <li>削除するときは、日付を選んで「1件削除」</li>    
+                </ul>
+            </div>
+            <!-- この部分に追加のメモ帳が挿入されます -->
+        </div>
+    </main>
+    <footer>
+        <!--ここから、日付の選択ボックス、メモの記入欄、ボタンのコードを書きます-->
+        <div class="box1">
+            <h1>Date</h1>
+            <input type="date" id="date">       
+            <h2>Memo</h2>
+            <textarea name="" id="textarea" placeholder="日付を選んでメモを記入してください" cols="35" rows="6"></textarea>
+            <h3 id="save">保存</h3>
+            <h4 id="delete">1件削除</h4>
+            <h5 id="clear">全削除</h5>
+            
+        </div>
+    </footer>
+        
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js//test.js"></script>
+</body>
+</html>
